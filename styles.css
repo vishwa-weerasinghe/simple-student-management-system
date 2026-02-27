@@ -61,18 +61,6 @@ h2 {
     color: var(--text);
     margin-bottom: 32px;
     display: block;
-    position: relative;
-}
-
-h2::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    width: 44px;
-    height: 4px;
-    background: var(--primary);
-    border-radius: 99px;
 }
 
 /* ── Input Fields ───────────────────────────── */
@@ -228,48 +216,6 @@ td:nth-child(4) {
     color: var(--text);
 }
 
-/* ── Pass / Fail Pills ──────────────────────── 
-.pass,.fail {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 4px 12px;
-    border-radius: 99px;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: .04em;
-    text-transform: uppercase;
-}
-
-.pass {
-    background: var(--green-lt);
-    color: var(--green);
-    border: 1px solid rgba(22, 163, 74, .2);
-}
-
-.pass::before {
-    content: '';
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: var(--green);
-    flex-shrink: 0;
-}
-
-.fail {
-    background: var(--red-lt);
-    color: var(--red);
-    border: 1px solid rgba(220, 38, 38, .2);
-}
-
-.fail::before {
-    content: '';
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: var(--red);
-    flex-shrink: 0;
-}*/
 .pass,.fail {
     font-size: 12px;
     font-weight: 700;
